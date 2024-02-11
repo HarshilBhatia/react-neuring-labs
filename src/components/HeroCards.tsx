@@ -109,21 +109,21 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Free
-            <Badge
+            Free Trail
+            {/* <Badge
               variant="secondary"
               className="text-sm text-primary"
             >
               Most popular
-            </Badge>
+            </Badge> */}
           </CardTitle>
           <div>
             <span className="text-3xl font-bold">$0</span>
-            <span className="text-muted-foreground"> /month</span>
+            <span className="text-muted-foreground"> / 7 days</span>
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+            Book a free trail. 
           </CardDescription>
         </CardHeader>
 
@@ -151,7 +151,7 @@ export const HeroCards = () => {
       </Card>
 
       {/* Service */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      {/* <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
           <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
             <LightBulbIcon />
@@ -164,7 +164,7 @@ export const HeroCards = () => {
             </CardDescription>
           </div>
         </CardHeader>
-      </Card>
+      </Card> */}
     </div>
   );
 };

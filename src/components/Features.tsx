@@ -18,21 +18,21 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "WingWoman",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "The AI copilot for your work-flow automation",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Chat-smthg",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "The ultimate Chat bot for your website",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Background Generation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "High quality background generation for your products, powered by diffusion.",
     image: image,
   },
 ];
@@ -56,13 +56,13 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        {/* Many{" "} */}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Products
         </span>
       </h2>
 
-      <div className="flex flex-wrap md:justify-center gap-4">
+      {/* <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
             <Badge
@@ -73,7 +73,7 @@ export const Features = () => {
             </Badge>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map(({ title, description, image }: FeatureProps) => (

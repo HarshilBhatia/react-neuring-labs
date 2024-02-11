@@ -20,14 +20,17 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Company
+                Us
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+              We are a bunch of research nerds and builders. 
+              Our mission is to increase the accessibility and impact of the fast paced research in vision and language. 
+              </p>
+              <p className="text-xl text-muted-foreground mt-4">
+
+              Currently, we are building to transform how user perceive, navigate and interact with the web. 
+              Our full-stack products will enable faster and efficient consumption of content. 
+              In the times of a compute bottleneck, we are building to support our infrastructure on consumer grade CPU’s with minimal to no gpus.
               </p>
             </div>
 
