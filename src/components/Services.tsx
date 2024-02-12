@@ -22,6 +22,12 @@ const serviceList: ServiceProps[] = [
     icon: <WalletIcon />,
   },
   {
+    title: "RecRoom",
+    description:
+      "Scan your room and view it in 3D",
+    icon: <MagnifierIcon />,
+  },
+  {
     title: "Background Gen",
     description:
       "Create amazing backgrounds for your products",

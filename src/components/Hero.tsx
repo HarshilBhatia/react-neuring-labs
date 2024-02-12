@@ -5,7 +5,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
-    <section className="container grid  place-items-center py-20 md:py-32 gap-10">
+    <section className="container grid  place-items-center py-48 gap-10">
       <div className="text-center justify-content:center lg:text-start space-y-6"         style={{
         display: 'flex',
         flexDirection: 'column',
@@ -13,7 +13,7 @@ export const Hero = () => {
         textAlign: 'center',
       }}>
 
-        <main className="text-8xl font-bold">
+        <main className="text-9xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Neuring 
