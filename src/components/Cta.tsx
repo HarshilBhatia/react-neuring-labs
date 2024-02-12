@@ -24,7 +24,7 @@ export const Cta = () => {
 
         <div className="space-y-4 lg:col-start-2 ">
         <a
-          href="contact-us@neuring.co"
+          href="mailto:contact-us@neuring.co"
             // target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
