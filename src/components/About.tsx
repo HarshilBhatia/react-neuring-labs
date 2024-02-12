@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="container py-24 sm:py-32"
+      className="container py-8"
     >
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
@@ -33,8 +33,6 @@ export const About = () => {
               In the times of a compute bottleneck, we are building to support our infrastructure on consumer grade CPU’s with minimal to no gpus.
               </p>
             </div>
-
-            <Statistics />
           </div>
         </div>
       </div>

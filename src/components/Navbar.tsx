@@ -108,7 +108,7 @@ export const Navbar = () => {
           </span>
 
           {/* desktop */}
-          <nav className="hidden md:flex gap-2">
+          {/* <nav className="hidden md:flex gap-2">
             {routeList.map((route: RouteProps, i) => (
               <a
                 href={route.href}
@@ -120,11 +120,11 @@ export const Navbar = () => {
                 {route.label}
               </a>
             ))}
-          </nav>
+          </nav> */}
 
           <div className="hidden md:flex gap-2">
             <a
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="lala"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >

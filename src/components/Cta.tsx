@@ -1,10 +1,11 @@
 import { Button } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 
 export const Cta = () => {
   return (
     <section
       id="cta"
-      className="bg-muted/50 py-16 my-24 sm:my-32"
+      className="bg-muted/50 py-8 "
     >
       <div className="container lg:grid lg:grid-cols-2 place-items-center">
         <div className="lg:col-start-1">
@@ -14,23 +15,36 @@ export const Cta = () => {
               {" "}
               Ideas & Concepts{" "}
             </span>
-            In One Interface
+            realised
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-            beatae. Ipsa tempore ipsum iste quibusdam illum ducimus eos. Quasi,
-            sed!
+            We  build efficient, low cost AI enabled products for your use-case. 
           </p>
         </div>
 
-        <div className="space-y-4 lg:col-start-2">
-          <Button className="w-full md:mr-4 md:w-auto">Request a Demo</Button>
-          <Button
+        <div className="space-y-4 lg:col-start-2 ">
+        <a
+          href="contact-us@neuring.co"
+            // target="_blank"
+            className={`w-full md:w-1/3 ${buttonVariants({
+              variant: "outline",
+            })}`}
+          >
+          <Button className="w-full  md:w-auto">Request a Demo</Button>
+          </a>
+          {/* <a
+          href="mailto:your@email.com"
+          className={`w-full md:w-auto ${buttonVariants({
+            variant: "outline",
+          })}`} */}
+          
+        {/* ></a> */}
+          {/* <Button
             variant="outline"
             className="w-full md:w-auto"
-          >
-            View all features
-          </Button>
+          > */}
+            {/* View all features */}
+          {/* </Button> */}
         </div>
       </div>
     </section>

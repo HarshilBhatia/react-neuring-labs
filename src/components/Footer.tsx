@@ -36,17 +36,10 @@ export const Footer = () => {
             </a>
           </div>
 
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Dribbble
-            </a>
-          </div>
+          
         </div>
 
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Platforms</h3>
           <div>
             <a
@@ -74,7 +67,7 @@ export const Footer = () => {
               Desktop
             </a>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">About</h3>
@@ -142,10 +135,10 @@ export const Footer = () => {
           &copy; 2024 Landing page made by{" "}
           <a
             target="_blank"
-            href="https://github.com/leoMirandaa"
+            // href="https://github.com/leoMirandaa"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Neuring Labs
           </a>
         </h3>
       </section>
